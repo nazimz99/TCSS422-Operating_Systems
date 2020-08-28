@@ -1,0 +1,9 @@
+CC=gcc
+
+binaries=exec
+
+all: $(binaries)
+
+clean: 
+	$(RM) -f $(binaries) *.o
+
